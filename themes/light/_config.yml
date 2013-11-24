@@ -1,9 +1,13 @@
 menu:
-  Головна: /
-  Події: /podii
-  меню1: /menu1
-  меню2: /menu2
-  меню3: /menu3
+  Освіта/Кваліфікації: /osvita
+  Індивідуальна: /indyvidualna
+  Тернінги: /treningy
+  З якими проблемами Я працюю?: /z-yakimi-problemamy-ya-pracuju
+  Парам/Сім'ям: /param
+  Новини: /noviny
+  Як це працює?: /yak-ce-pracjue
+  Терапевтичні групи: /terapevtychny-grupy
+  Контакти: /kontakty
 
 widgets:
 - search

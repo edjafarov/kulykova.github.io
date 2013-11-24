@@ -2,12 +2,16 @@
   <h1><a href="<%- config.root %>"><%= config.title %></a></h1>
   <h2><a href="<%- config.root %>"><% if (config.subtitle){ %><%= config.subtitle %><% } %></a></h2>
 </div>
-<nav id="main-nav" class="alignright">
-  <ul>
-    <% for (var i in theme.menu){ %>
-      <li><a href="<%- theme.menu[i] %>"><%= i %></a></li>
-    <% } %>
-  </ul>
-  <div class="clearfix"></div>
-</nav>
-<div class="clearfix"></div>
+
+<div>
+  <div class="col-md-2">
+    <img src="/nana.jpg" class="nana"/>
+  </div>
+  <nav id="main-nav" class="col-sm-10" >
+    <ul>
+      <% for (var i in theme.menu){ %>
+        <li class="col-sm-4"><a href="<%- theme.menu[i] %>"><%= i %></a></li>
+      <% } %>
+    </ul>
+  </nav>
+</div>

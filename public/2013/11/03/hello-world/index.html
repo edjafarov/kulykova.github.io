@@ -20,6 +20,7 @@
 
   <link href="/favicon.png" rel="icon">
   <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
@@ -27,27 +28,40 @@
 
 
 <body>
+  <div class="container">
   <header id="header" class="inner"><div class="alignleft">
   <h1><a href="/">Hexo</a></h1>
   <h2><a href="/"></a></h2>
 </div>
-<nav id="main-nav" class="alignright">
-  <ul>
-    
-      <li><a href="/">Головна</a></li>
-    
-      <li><a href="/podii">Події</a></li>
-    
-      <li><a href="/menu1">меню1</a></li>
-    
-      <li><a href="/menu2">меню2</a></li>
-    
-      <li><a href="/menu3">меню3</a></li>
-    
-  </ul>
-  <div class="clearfix"></div>
-</nav>
-<div class="clearfix"></div></header>
+
+<div>
+  <div class="col-md-2">
+    <img src="/nana.jpg" class="nana"/>
+  </div>
+  <nav id="main-nav" class="col-sm-10" >
+    <ul>
+      
+        <li class="col-sm-4"><a href="/osvita">Освіта/Кваліфікації</a></li>
+      
+        <li class="col-sm-4"><a href="/indyvidualna">Індивідуальна</a></li>
+      
+        <li class="col-sm-4"><a href="/treningy">Тернінги</a></li>
+      
+        <li class="col-sm-4"><a href="/z-yakimi-problemamy-ya-pracuju">З якими проблемами Я працюю?</a></li>
+      
+        <li class="col-sm-4"><a href="/param">Парам/Сім'ям</a></li>
+      
+        <li class="col-sm-4"><a href="/noviny">Новини</a></li>
+      
+        <li class="col-sm-4"><a href="/yak-ce-pracjue">Як це працює?</a></li>
+      
+        <li class="col-sm-4"><a href="/terapevtychny-grupy">Терапевтичні групи</a></li>
+      
+        <li class="col-sm-4"><a href="/kontakty">Контакти</a></li>
+      
+    </ul>
+  </nav>
+</div></header>
   <div id="content" class="inner">
     <div id="main-col" class="alignleft">
       <div id="wrapper">
@@ -99,27 +113,6 @@
   </div>
 </article>
 
-
-<section id="comment">
-  <h1 class="title">Comments</h1>
-
-  
-      <div id="fb-root"></div>
-<script>
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=123456789012345";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-
-<div class="fb-comments" data-href="http://yoursite.com/2013/11/03/hello-world/" data-num-posts="5" data-width="840" data-colorscheme="light"></div>
-      
-  
-</section>
-
       </div>
     </div>
     <aside id="sidebar" class="alignright">
@@ -157,5 +150,6 @@
 })(jQuery);
 </script>
 
+  </div>
 </body>
 </html>
