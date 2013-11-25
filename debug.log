@@ -1,5 +1,5 @@
-date: 2013-11-03 17:52:57.632
-argv: node /usr/local/bin/hexo generate --debug
+date: 2013-11-25 10:46:43.159
+argv: node /usr/local/bin/hexo server
 os: Linux 3.2.0-32-generic linux x64
 version:
   hexo: 2.3.0
@@ -13,39 +13,37 @@ version:
   openssl: 1.0.1e
 ---
 
-[debug] 17:52:57.645 Configuration file load successfully
-[debug] 17:52:57.652 Version info checked successfully
-[debug] 17:52:57.653 Loading the database...
-[debug] 17:52:57.816 Theme layout loaded
-[debug] 17:52:57.868 Theme source loaded
-[debug] 17:52:57.897 Theme configuration loaded
-[debug] 17:52:57.914 Theme i18n loaded
-[debug] 17:52:57.927 Processed: _posts/hello-world.md
-[debug] 17:52:57.946 Cache saved
-[info] 17:52:57.947 Files loaded in 0.147s
-[debug] 17:52:57.949 Public folder not exists. No need to clear public folder.
-[debug] 17:52:57.975 Render archive: archives/
-[debug] 17:52:57.977 Render archive: archives/2013/
-[debug] 17:52:57.978 Render archive: archives/2013/11/
-[debug] 17:52:57.978 Render index: 
-[debug] 17:52:57.980 Render post: 2013/11/03/hello-world/
-[create] 17:52:58.445 Public: fancybox/blank.gif
-[create] 17:52:58.450 Public: fancybox/fancybox_loading.gif
-[create] 17:52:58.452 Public: fancybox/fancybox_loading@2x.gif
-[create] 17:52:58.455 Public: fancybox/fancybox_overlay.png
-[create] 17:52:58.457 Public: fancybox/fancybox_sprite.png
-[create] 17:52:58.459 Public: fancybox/fancybox_sprite@2x.png
-[create] 17:52:58.462 Public: fancybox/jquery.fancybox.css
-[create] 17:52:58.464 Public: fancybox/jquery.fancybox.pack.js
-[create] 17:52:58.468 Public: js/gallery.js
-[create] 17:52:58.476 Public: js/jquery.imagesloaded.min.js
-[create] 17:52:58.481 Public: css/font/fontawesome-webfont.eot
-[create] 17:52:58.486 Public: css/font/fontawesome-webfont.ttf
-[create] 17:52:58.490 Public: css/font/fontawesome-webfont.svg
-[create] 17:52:58.493 Public: css/font/fontawesome-webfont.woff
-[create] 17:52:58.496 Public: css/style.css
-[create] 17:52:58.498 Public: archives/index.html
-[create] 17:52:58.504 Public: 2013/11/03/hello-world/index.html
-[create] 17:52:58.507 Public: archives/2013/index.html
-[create] 17:52:58.510 Public: archives/2013/11/index.html
-[create] 17:52:58.512 Public: index.html
+[debug] 10:46:42.854 Configuration file load successfully
+[debug] 10:46:42.857 Version info checked successfully
+[debug] 10:46:42.857 Loading the database...
+[debug] 10:46:43.059 Theme layout loaded
+[debug] 10:46:43.060 Start watching theme layout...
+[debug] 10:46:43.102 Theme source loaded
+[debug] 10:46:43.107 Theme configuration loaded
+[debug] 10:46:43.107 Start watching theme source...
+[debug] 10:46:43.124 Theme i18n loaded
+[debug] 10:46:43.143 Processed: _posts/hello-world.md
+[debug] 10:46:43.146 Processed: indyvidualna/index.md
+[debug] 10:46:43.146 Processed: kontakty/index.md
+[debug] 10:46:43.148 Processed: osvita/index.md
+[debug] 10:46:43.148 Processed: param/index.md
+[debug] 10:46:43.148 Processed: terapevtychny-grupy/index.md
+[debug] 10:46:43.149 Processed: treningy/index.md
+[debug] 10:46:43.149 Processed: yak-ce-pracjue/index.md
+[debug] 10:46:43.150 Processed: z-yakimi-problemamy-ya-pracuju/index.md
+[error] 10:46:43.154 HexoError: Process failed: noviny/index.ejs
+ReferenceError: /home/vagrant/app/source/noviny/index.ejs:2
+    1| HI
+ >> 2| <% posts %>
+
+posts is not defined
+    at eval (eval at <anonymous> (/home/vagrant/hexo/node_modules/ejs/lib/ejs.js:236:14), <anonymous>:29:37)
+    at eval (eval at <anonymous> (/home/vagrant/hexo/node_modules/ejs/lib/ejs.js:236:14), <anonymous>:29:61)
+    at /home/vagrant/hexo/node_modules/ejs/lib/ejs.js:249:15
+    at Object.exports.render (/home/vagrant/hexo/node_modules/ejs/lib/ejs.js:287:13)
+    at module.exports (/home/vagrant/hexo/lib/plugins/renderer/ejs.js:5:14)
+    at Object.store.(anonymous function) [as ejs] (/home/vagrant/hexo/lib/extend/renderer.js:26:27)
+    at /home/vagrant/hexo/lib/render.js:105:22
+    at fn (/home/vagrant/hexo/node_modules/async/lib/async.js:579:34)
+    at Object._onImmediate (/home/vagrant/hexo/node_modules/async/lib/async.js:495:34)
+    at processImmediate [as _immediateCallback] (timers.js:330:15)

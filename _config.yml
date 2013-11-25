@@ -16,7 +16,7 @@ url: http://psy-consultation.kiev.ua
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
-archive_dir: archives
+archive_dir: noviny
 category_dir: categories
 code_dir: downloads/code
 
