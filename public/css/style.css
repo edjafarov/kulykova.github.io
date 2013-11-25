@@ -1,20 +1,26 @@
-.nana {
-  width: 230px;
+.avatar {
+  padding: 0;
+}
+.avatar img {
+  width: 244px;
+}
+body {
+  background-color: #cffafc;
 }
 #main-nav ul {
   list-style-type: none;
 }
 #main-nav li {
-  height: 73px;
-  line-height: 73px;
+  height: 77px;
+  line-height: 77px;
   background-color: #1ba1e2;
   text-align: center;
-  border: 1px solid #fff;
+  border: 1px solid #cffafc;
   font-size: 1.2em;
 }
 #main-nav li a {
   color: #fff;
-  display: block;
+  display: inline-block;
   width: 100%;
   height: btn-height;
 }
@@ -41,4 +47,34 @@
 }
 #main-nav li + li+ li+ li+ li+ li+ li+ li + li {
   background-color: #9cbf26;
+}
+article,
+aside {
+  margin-top: 30px;
+  text-align: justify;
+}
+article {
+  padding-right: 20px;
+  line-height: 1.5em;
+  font-size: 1.3em;
+}
+.addthis {
+  font-size: 1em;
+}
+.search {
+  margin-top: 7px;
+  margin-bottom: 30px;
+}
+.search input {
+  background: #fff;
+  font-family: font-title;
+  font-style: italic;
+  font-size: 1em;
+  padding: 5px 15px;
+  border: 1px solid;
+  width: 100%;
+  box-sizing: border-box;
+}
+.navigation {
+  margin-top: 20px;
 }

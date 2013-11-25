@@ -2,7 +2,7 @@ menu:
   Освіта/Кваліфікації: /osvita
   Індивідуальна: /indyvidualna
   Тернінги: /treningy
-  З якими проблемами Я працюю?: /z-yakimi-problemamy-ya-pracuju
+  З якими проблемами я працюю?: /z-yakimi-problemamy-ya-pracuju
   Парам/Сім'ям: /param
   Новини: /noviny
   Як це працює?: /yak-ce-pracjue
@@ -11,8 +11,8 @@ menu:
 
 widgets:
 - search
-- category
-- tag
+- share
+- recent_posts
 
 excerpt_link: Read More
 
@@ -23,11 +23,9 @@ twitter:
 
 addthis:
   enable: true
-  pubid:
+  pubid: ra-529333aa20384398
   facebook: true
   twitter: true
-  google: true
-  pinterest: true
 
 fancybox: true
 

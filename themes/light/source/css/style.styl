@@ -1,3 +1,4 @@
+common_bkg = #CFFAFC
 blue = #1ba1e2
 magenta = #a200ff
 purple = #ff0097
@@ -9,10 +10,18 @@ orange = #f09609
 red = #e51400
 green = #339933
 
-btn_height = 73px
+btn_height = 77px
 
-.nana {
-  width 230px
+.avatar {
+  padding 0
+
+  img {
+    width 244px
+  }
+}
+
+body{
+  background-color common_bkg
 }
 
 #main-nav{
@@ -24,11 +33,11 @@ btn_height = 73px
     line-height btn_height
     background-color blue
     text-align center
-    border 1px solid #ffffff
+    border 1px solid common_bkg
     font-size 1.2em
     a{
       color #ffffff
-      display block
+      display inline-block
       width 100%
       height btn-height
     }
@@ -60,3 +69,34 @@ btn_height = 73px
 
 
 }
+
+article, aside {
+  margin-top 30px
+  text-align justify
+}
+
+article {
+  padding-right 20px
+  line-height 1.5em
+  font-size 1.3em
+}
+
+.addthis {
+  font-size 1em
+}
+
+.search
+  margin-top 7px
+  margin-bottom 30px
+  input
+    background #fff
+    font-family font-title
+    font-style italic
+    font-size 1em
+    padding 5px 15px
+    border 1px solid 
+    width 100%
+    box-sizing border-box
+
+.navigation
+  margin-top 20px
