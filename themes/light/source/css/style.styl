@@ -1,16 +1,15 @@
-common_bkg = #CFFAFC
-blue = #1ba1e2
-magenta = #a200ff
-purple = #ff0097
-teal = #00aba9
-lime = #9cbf26
-brown = #a05000
-pink = #e671b8
-orange = #f09609
-red = #e51400
-green = #339933
+common_bkg = #FFFAC3
+common_bkg = #FFFFFF
 
-btn_height = 77px
+
+orange = #FFC990
+grey = #988780
+blue = #535379
+brown = #DAA97E
+red = #FA9E93
+green = #B3B15A
+
+btn_height = 114px
 
 .avatar {
   padding 0
@@ -31,7 +30,7 @@ body{
   li{
     height btn_height
     line-height btn_height
-    background-color blue
+    background-color orange
     text-align center
     border 1px solid common_bkg
     font-size 1.2em
@@ -39,33 +38,26 @@ body{
       color #ffffff
       display inline-block
       width 100%
-      height btn-height
+      line-height 1.2em
+      vertical-align middle
     }
   }
   li + li{
-    background-color green
+    background-color blue
   }
   li + li+ li{
-    background-color red
+    background-color grey
   }
   li + li+ li+ li{
-    background-color teal
+    background-color red
   }
   li + li+ li+ li+ li{
     background-color brown
   }
   li + li+ li+ li+ li+ li{
-    background-color orange
+    background-color green
   }
-  li + li+ li+ li+ li+ li+ li{
-    background-color purple
-  }
-  li + li+ li+ li+ li+ li+ li+ li{
-    background-color pink
-  }
-  li + li+ li+ li+ li+ li+ li+ li + li{
-    background-color lime
-  }
+
 
 
 }
@@ -79,10 +71,24 @@ article {
   padding-right 20px
   line-height 1.5em
   font-size 1.3em
+  margin-left -15px
+  h1 {
+    font-size 28px
+  }
 }
 
 .addthis {
   font-size 1em
+}
+
+#footer {
+  clear both
+}
+
+#vkshare0 td a{
+  -webkit-box-sizing content-box
+  -moz-box-sizing content-box
+  box-sizing content-box
 }
 
 .search
@@ -100,3 +106,12 @@ article {
 
 .navigation
   margin-top 20px
+
+#header{
+  h3 {
+    font-size: 33px
+  }
+  h4 {
+    font-size: 30px;
+  }
+}

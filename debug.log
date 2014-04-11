@@ -1,4 +1,4 @@
-date: 2013-11-25 10:46:43.159
+date: 2014-04-11 04:44:05.347
 argv: node /usr/local/bin/hexo server
 os: Linux 3.2.0-32-generic linux x64
 version:
@@ -13,37 +13,36 @@ version:
   openssl: 1.0.1e
 ---
 
-[debug] 10:46:42.854 Configuration file load successfully
-[debug] 10:46:42.857 Version info checked successfully
-[debug] 10:46:42.857 Loading the database...
-[debug] 10:46:43.059 Theme layout loaded
-[debug] 10:46:43.060 Start watching theme layout...
-[debug] 10:46:43.102 Theme source loaded
-[debug] 10:46:43.107 Theme configuration loaded
-[debug] 10:46:43.107 Start watching theme source...
-[debug] 10:46:43.124 Theme i18n loaded
-[debug] 10:46:43.143 Processed: _posts/hello-world.md
-[debug] 10:46:43.146 Processed: indyvidualna/index.md
-[debug] 10:46:43.146 Processed: kontakty/index.md
-[debug] 10:46:43.148 Processed: osvita/index.md
-[debug] 10:46:43.148 Processed: param/index.md
-[debug] 10:46:43.148 Processed: terapevtychny-grupy/index.md
-[debug] 10:46:43.149 Processed: treningy/index.md
-[debug] 10:46:43.149 Processed: yak-ce-pracjue/index.md
-[debug] 10:46:43.150 Processed: z-yakimi-problemamy-ya-pracuju/index.md
-[error] 10:46:43.154 HexoError: Process failed: noviny/index.ejs
-ReferenceError: /home/vagrant/app/source/noviny/index.ejs:2
-    1| HI
- >> 2| <% posts %>
-
-posts is not defined
-    at eval (eval at <anonymous> (/home/vagrant/hexo/node_modules/ejs/lib/ejs.js:236:14), <anonymous>:29:37)
-    at eval (eval at <anonymous> (/home/vagrant/hexo/node_modules/ejs/lib/ejs.js:236:14), <anonymous>:29:61)
-    at /home/vagrant/hexo/node_modules/ejs/lib/ejs.js:249:15
-    at Object.exports.render (/home/vagrant/hexo/node_modules/ejs/lib/ejs.js:287:13)
-    at module.exports (/home/vagrant/hexo/lib/plugins/renderer/ejs.js:5:14)
-    at Object.store.(anonymous function) [as ejs] (/home/vagrant/hexo/lib/extend/renderer.js:26:27)
-    at /home/vagrant/hexo/lib/render.js:105:22
-    at fn (/home/vagrant/hexo/node_modules/async/lib/async.js:579:34)
-    at Object._onImmediate (/home/vagrant/hexo/node_modules/async/lib/async.js:495:34)
-    at processImmediate [as _immediateCallback] (timers.js:330:15)
+[debug] 04:44:05.037 Configuration file load successfully
+[debug] 04:44:05.040 Version info checked successfully
+[debug] 04:44:05.041 Loading the database...
+[debug] 04:44:05.239 Theme layout loaded
+[debug] 04:44:05.240 Start watching theme layout...
+[debug] 04:44:05.288 Theme source loaded
+[debug] 04:44:05.290 Theme configuration loaded
+[debug] 04:44:05.291 Start watching theme source...
+[debug] 04:44:05.309 Theme i18n loaded
+[debug] 04:44:05.330 Processed: _posts/hello-world.md
+[debug] 04:44:05.333 Processed: konsultaciya-chy-psihoterapiya/index.md
+[debug] 04:44:05.334 Processed: obrazovanie/index.md
+[debug] 04:44:05.335 Processed: osvita/index.md
+[debug] 04:44:05.336 Processed: param/index.md
+[debug] 04:44:05.337 Processed: terapevtychny-grupy/index.md
+[debug] 04:44:05.341 Processed: yak-ce-pracjue/index.md
+[debug] 04:44:05.342 Processed: z-kym-i-z-chym-ya-pracuiu/index.md
+[error] 04:44:05.342 { rawMessage: 'Unable to parse.',
+  parsedLine: 1,
+  snippet: 'title:С кем и с чем я работаю?',
+  parsedFile: null,
+  message: 'Unable to parse.',
+  domain: 
+   { domain: null,
+     _events: { error: [Function] },
+     _maxListeners: 10,
+     members: [],
+     _disposed: true },
+  domainThrown: true }
+[debug] 04:44:05.348 Processed: gruppy/index.md
+[debug] 04:44:05.348 Processed: kak-eto-rabotaet/index.md
+[debug] 04:44:05.350 Processed: kontakty/index.md
+[debug] 04:44:05.350 Processed: konsultaciya-ili-psychoterapiya/index.md

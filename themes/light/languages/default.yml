@@ -1,12 +1,12 @@
-categories: Categories
-search: Пошук
-tags: Tags
+categories: Категории
+search: Поиск
+tags: Теги
 tagcloud: Tag Cloud
 tweets: Tweets
-prev: Prev
-next: Next
-comment: Comments
-archive_a: Archives
-archive_b: Archives: %s
-page: Page %d
-recent_posts: Останні новини
+prev: Предыдущая
+next: Следующая
+comment: Комментарии
+archive_a: Посты
+archive_b: Посты: %s
+page: Страница %d
+recent_posts: Блог

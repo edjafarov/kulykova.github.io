@@ -1,12 +1,9 @@
 menu:
-  Освіта/Кваліфікації: /osvita
-  Індивідуальна: /indyvidualna
-  Тернінги: /treningy
-  З якими проблемами я працюю?: /z-yakimi-problemamy-ya-pracuju
-  Парам/Сім'ям: /param
-  Новини: /noviny
-  Як це працює?: /yak-ce-pracjue
-  Терапевтичні групи: /terapevtychny-grupy
+  Мое образование и квалификации: /obrazovanie
+  Консультация или психотерапия?: /konsultaciya-ili-psychoterapiya
+  Как это работает?: /kak-eto-rabotaet
+  С кем и с чем я работаю?: /s-kem-i-chem-ya-rabotaju
+  Терапевтические группы: /gruppy
   Контакти: /kontakty
 
 widgets:

@@ -3,8 +3,8 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: Наталія Куликова
-subtitle: Психолог &sdot; Психотерапевт
+title: Наталия Куликова
+subtitle: ПСИХОЛОГИЧЕСКАЯ КОНСУЛЬТАЦИЯ
 description:
 author: Наталія Куликова
 email: ask@psy-consultation.kiev.ua
@@ -16,7 +16,7 @@ url: http://psy-consultation.kiev.ua
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
-archive_dir: noviny
+archive_dir: blog
 category_dir: categories
 code_dir: downloads/code
 

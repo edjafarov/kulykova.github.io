@@ -5,48 +5,40 @@
   width: 244px;
 }
 body {
-  background-color: #cffafc;
+  background-color: #fff;
 }
 #main-nav ul {
   list-style-type: none;
 }
 #main-nav li {
-  height: 77px;
-  line-height: 77px;
-  background-color: #1ba1e2;
+  height: 114px;
+  line-height: 114px;
+  background-color: #ffc990;
   text-align: center;
-  border: 1px solid #cffafc;
+  border: 1px solid #fff;
   font-size: 1.2em;
 }
 #main-nav li a {
   color: #fff;
   display: inline-block;
   width: 100%;
-  height: btn-height;
+  line-height: 1.2em;
+  vertical-align: middle;
 }
 #main-nav li + li {
-  background-color: #393;
+  background-color: #535379;
 }
 #main-nav li + li+ li {
-  background-color: #e51400;
+  background-color: #988780;
 }
 #main-nav li + li+ li+ li {
-  background-color: #00aba9;
+  background-color: #fa9e93;
 }
 #main-nav li + li+ li+ li+ li {
-  background-color: #a05000;
+  background-color: #daa97e;
 }
 #main-nav li + li+ li+ li+ li+ li {
-  background-color: #f09609;
-}
-#main-nav li + li+ li+ li+ li+ li+ li {
-  background-color: #ff0097;
-}
-#main-nav li + li+ li+ li+ li+ li+ li+ li {
-  background-color: #e671b8;
-}
-#main-nav li + li+ li+ li+ li+ li+ li+ li + li {
-  background-color: #9cbf26;
+  background-color: #b3b15a;
 }
 article,
 aside {
@@ -57,6 +49,10 @@ article {
   padding-right: 20px;
   line-height: 1.5em;
   font-size: 1.3em;
+  margin-left: -15px;
+}
+article h1 {
+  font-size: 28px;
 }
 .addthis {
   font-size: 1em;
@@ -77,4 +73,10 @@ article {
 }
 .navigation {
   margin-top: 20px;
+}
+#header h3 {
+  font-size: 33px;
+}
+#header h4 {
+  font-size: 30px;
 }
