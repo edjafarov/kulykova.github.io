@@ -2,8 +2,9 @@ title: Контакты
 date: 2013-11-24 17:12:35
 ---
 
-* 068 558 33 52
 * 096 996 41 80
+* 068 558 33 52
+
 
 [ask@psy-consultation.kiev.ua](mailto:ask@psy-consultation.kiev.ua)
 

@@ -80,4 +80,6 @@ exclude_generator:
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deploy.html
 deploy:
-  type:
+  type: github
+  repository: git@github.com:edjafarov/kulykova.github.io.git
+  branch: gh-pages

@@ -57,6 +57,14 @@ article h1 {
 .addthis {
   font-size: 1em;
 }
+#footer {
+  clear: both;
+}
+#vkshare0 td a {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
 .search {
   margin-top: 7px;
   margin-bottom: 30px;
