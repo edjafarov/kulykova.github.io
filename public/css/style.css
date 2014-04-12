@@ -45,6 +45,10 @@ aside {
   margin-top: 30px;
   text-align: justify;
 }
+.widget.tag li {
+  margin-bottom: 10px;
+  text-align: left;
+}
 article {
   padding-right: 20px;
   line-height: 1.5em;
