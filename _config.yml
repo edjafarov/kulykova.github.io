@@ -82,4 +82,4 @@ exclude_generator:
 deploy:
   type: github
   repository: git@github.com:edjafarov/kulykova.github.io.git
-  branch: master
+  branch: gh-pages
