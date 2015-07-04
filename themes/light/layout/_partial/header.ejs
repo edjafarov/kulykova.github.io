@@ -1,0 +1,52 @@
+<div class="alignleft">
+<div class="addthis addthis_toolbox addthis_default_styl">
+  <!-- Put this script tag to the <head> of your page -->
+  <script type="text/javascript" src="http://vk.com/js/api/share.js?90" charset="windows-1251"></script>
+
+   <ul class="list-inline">
+    <li >
+      <a href="http://psy-practice.com/" id="psy-practice-com" style="display:block; width:88px; height:31px; background:url('http://psy-practice.com/img/linck-ico.jpg') 0 0 no-repeat;float: right;margin-right: 17px;" title="Сайт для поиска психологов в странах СНГ"></a>
+    </li>
+    <li > <a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a></li>
+    <li  >  <div class="fb-share-button" data-href="http://psy-consultation.kiev.ua" data-type="button"></div></li>
+    <li > <!-- Put this script tag to the place, where the Share button will be -->
+<script type="text/javascript"><!--
+document.write(VK.Share.button(false,{type: "round_nocount", text: "Share"}));
+--></script> </li>
+  </ul>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=136144103167276";
+          fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</div>
+</div>
+<div class="alignright">
+  <h5><%= config.email %></h5>
+  <h5><%= config.phone %></h5>
+</div>
+
+<div class="navigation">
+  <div class="col-md-12 avatar">
+    <img src="/tryphoto.jpg" class="nana"/>
+  </div>
+  <div class="site-name">
+    <h3><% if (config.subtitle){ %><%= config.subtitle %><% } %></h3>
+    <h4><a href="<%- config.root %>"><%= config.title %></a></h4>
+  </div>
+
+</div>
+<nav id="main-nav" class="col-md-12">
+  <ul>
+    <% for (var i in theme.menu){ %>
+      <li class="col-sm-3"><a href="<%- theme.menu[i] %>"><%= i %></a></li>
+    <% } %>
+  </ul>
+</nav>

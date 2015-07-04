@@ -1,0 +1,34 @@
+menu:
+  Моя кваліфікація: /moya-kvalifikaciya
+  Проблеми, з якими я працюю: /problemy-z-yakimy-ya-pracuju
+  Про психоаналітичну психотерапію: /pro-psychoanalitychnu-psyhoterapiju
+  Психотерапевтичні групи: /psyhoterapevtychni-grupy
+
+widgets:
+- recent_posts
+
+excerpt_link: Read More
+
+twitter:
+  username:
+  show_replies: false
+  tweet_count: 5
+
+addthis:
+  enable: true
+  pubid: ra-529333aa20384398
+  facebook: true
+  twitter: true
+
+fancybox: true
+
+google_analytics: UA-35569478-1
+rss:
+
+comment_provider: facebook
+# Facebook comment
+facebook:
+  appid: 123456789012345
+  comment_count: 5
+  comment_width: 840
+  comment_colorscheme: light

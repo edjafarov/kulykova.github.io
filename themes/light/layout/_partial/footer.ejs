@@ -1,0 +1,12 @@
+<ul class="list-unstyled contacts">
+  <li class="col-sm-2">
+    <a href="/kontakty">Контакти</a>
+  </li>
+  <li class="col-sm-10 text-right">
+    <% if (config.author){ %>
+    &copy; 2014 - <%= new Date().getFullYear() %> <%= config.author %>
+    <% } else { %>
+    &copy; <%= new Date().getFullYear() %> <%= config.title %>
+    <% } %>
+  </li>
+</ul>

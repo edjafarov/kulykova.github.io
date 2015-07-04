@@ -1,0 +1,22 @@
+<%- partial('_partial/head') %>
+
+<body>
+  <div class="container">
+  <header id="header" class="inner"><%- partial('_partial/header') %></header>
+  <div id="content" class="inner">
+    <aside id="sidebar" class="col-sm-3"><%- partial('_partial/sidebar') %></aside>
+    <div id="main-col" class="col-sm-9">
+      <div class="mailto clearfix">
+        <div class="col-sm-offset-4 col-sm-4" onclick="window.location='mailto:ask@psy-consultation.kiev.ua'"><span class="questionmark">?</span><a href="mailto:ask@psy-consultation.kiev.ua">Запитати</a></div>
+        <div class="col-sm-4" onclick="window.location='mailto:ask@psy-consultation.kiev.ua'"><a href="mailto:ask@psy-consultation.kiev.ua">Запиcатись на прийом</a></div>
+      </div>
+      <div id="wrapper">
+        <%- body %>
+      </div>
+    </div>
+  </div>
+  <footer id="footer" class="inner"><%- partial('_partial/footer') %></footer>
+  <%- partial('_partial/after_footer') %>
+  </div>
+</body>
+</html>
