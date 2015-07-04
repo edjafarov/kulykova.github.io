@@ -2,18 +2,19 @@
   padding: 0;
 }
 .avatar img {
-  width: 244px;
+  width: 100%;
 }
 body {
   background-color: #fff;
 }
 #main-nav ul {
+  padding: 0;
   list-style-type: none;
 }
 #main-nav li {
-  height: 114px;
-  line-height: 114px;
-  background-color: #ffc990;
+  height: 61px;
+  line-height: 61px;
+  background-color: #74b7e0;
   text-align: center;
   border: 1px solid #fff;
   font-size: 1.2em;
@@ -25,24 +26,8 @@ body {
   line-height: 1.2em;
   vertical-align: middle;
 }
-#main-nav li + li {
-  background-color: #535379;
-}
-#main-nav li + li+ li {
-  background-color: #988780;
-}
-#main-nav li + li+ li+ li {
-  background-color: #fa9e93;
-}
-#main-nav li + li+ li+ li+ li {
-  background-color: #daa97e;
-}
-#main-nav li + li+ li+ li+ li+ li {
-  background-color: #b3b15a;
-}
 article,
 aside {
-  margin-top: 30px;
   text-align: justify;
 }
 .widget.tag li {
@@ -87,8 +72,64 @@ article h1 {
   margin-top: 20px;
 }
 #header h3 {
-  font-size: 33px;
+  font-size: 50px;
 }
 #header h4 {
   font-size: 30px;
+}
+#header h5 {
+  margin-top: 0;
+  font-size: 20px;
+}
+#header .navigation {
+  position: relative;
+}
+#header .navigation .site-name {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+#header .navigation .site-name h3 {
+  font-size: 3.5vw;
+}
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+.mailto {
+  margin-left: -8px;
+  margin-top: 16px;
+  position: relative;
+}
+.mailto .questionmark {
+  position: absolute;
+  left: 15%;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+.mailto div {
+  cursor: pointer;
+  height: 61px;
+  line-height: 61px;
+  background-color: #69d2b2;
+  text-align: center;
+  border: 1px solid #fff;
+  font-size: 1.2em;
+}
+.mailto div a {
+  color: #fff;
+  display: inline;
+  width: 100%;
+  line-height: 1.2em;
+  vertical-align: middle;
+}
+.contacts {
+  font-size: 20px;
+  line-height: 50px;
+}
+.addthis .list-inline li {
+  vertical-align: top;
 }
