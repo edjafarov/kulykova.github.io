@@ -28,9 +28,23 @@ document.write(VK.Share.button(false,{type: "round_nocount", text: "Share"}));
 }(document, 'script', 'facebook-jssdk'));</script>
 </div>
 </div>
+
 <div class="alignright">
   <h5><%= config.email %></h5>
-  <h5><%= config.phone %></h5>
+  <h5>
+    <a href="skype:<%= config.skype %>?call"><%= config.skype %></a>
+    <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+    <div id="SkypeButton_Call_ourglad_1" class="skypeBtn">
+     <script type="text/javascript">
+     Skype.ui({
+     "name": "call",
+     "element": "SkypeButton_Call_ourglad_1",
+     "participants": ["ourglad"],
+     "imageSize": 24
+     });
+     </script>
+    </div>
+  </h5>
 </div>
 
 <div class="navigation">
