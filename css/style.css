@@ -78,7 +78,7 @@ article h1 {
   display: inline-block;
 }
 #header .skypeBtn img {
-  vertical-align: 0;
+  vertical-align: middle !important;
   margin: 0 0 0 10px !important;
 }
 #header h3 {
